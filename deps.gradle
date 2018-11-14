@@ -12,7 +12,8 @@ ext.deps = [
         stdlib           : "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin_version",
         coroutines       : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutine_version",
         coroutinesAndroid: "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutine_version",
-        junit            : "org.junit.jupiter:junit-jupiter-api:5.1.1",
-        mockk            : "io.mockk:mockk:1.8.9.kotlin13"
+        junit            : "org.junit.jupiter:junit-jupiter-api:5.2.0",
+        junit_vintage            : "org.junit.vintage:junit-vintage-engine:5.2.0",
+        mockk            : "io.mockk:mockk:1.8.11.kotlin13"
 
 ]
