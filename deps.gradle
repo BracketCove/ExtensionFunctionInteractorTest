@@ -1,0 +1,18 @@
+//Dependency style based on mon ami Darel's repo here:
+// https://github.com/bitsydarel/DBWeather/blob/master/dependencies.gradle
+ext.versions = [
+        kotlin_version       : '1.3.0-rc-190',
+        coroutine_version    : '1.0.0-RC1',
+        android_gradle_plugin: '3.2.1'
+]
+
+ext.deps = [
+        reflect          : "org.jetbrains.kotlin:kotlin-reflect:$versions.kotlin_version",
+        stdlib_8       : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin_version",
+        stdlib           : "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin_version",
+        coroutines       : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutine_version",
+        coroutinesAndroid: "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutine_version",
+        junit            : "org.junit.jupiter:junit-jupiter-api:5.1.1",
+        mockk            : "io.mockk:mockk:1.8.9.kotlin13"
+
+]

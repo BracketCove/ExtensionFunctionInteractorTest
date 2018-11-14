@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation rootProject.ext.deps.stdlib
+    implementation rootProject.ext.deps.stdlib_8
+    implementation rootProject.ext.deps.coroutines
+    implementation rootProject.ext.deps.coroutinesAndroid
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
